@@ -12,16 +12,6 @@ const config = {
     appId: "1:343856483988:web:515ba7454aacbf49cfee81"
 };
 
-//const config = {
-//  apiKey: 'AIzaSyCdHT-AYHXjF7wOrfAchX4PIm3cSj5tn14',
-//  authDomain: 'crwn-db.firebaseapp.com',
-//  databaseURL: 'https://crwn-db.firebaseio.com',
-//  projectId: 'crwn-db',
-//  storageBucket: 'crwn-db.appspot.com',
-//  messagingSenderId: '850995411664',
-//  appId: '1:850995411664:web:7ddc01d597846f65'
-//};
-
 firebase.initializeApp(config);
 
 export const createUserProfileDocument = async (userAuth, additionalData) => {
